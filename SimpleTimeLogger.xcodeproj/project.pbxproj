@@ -74,6 +74,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F0FFC1720FB845100D44D00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FB7A30220FB31E100692939 /* Main.storyboard */,
+				0FB7A30520FB31E300692939 /* Assets.xcassets */,
+				0FB7A30720FB31E300692939 /* LaunchScreen.storyboard */,
+				0FB7A30A20FB31E300692939 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0F0FFC1820FB845C00D44D00 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FFC2020FB854800D44D00 /* Extensions */,
+				0F0FFC1F20FB853E00D44D00 /* Models */,
+				0F0FFC1920FB847600D44D00 /* AppDelegate */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0F0FFC1920FB847600D44D00 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0FB7A2FE20FB31E100692939 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0F0FFC1A20FB848A00D44D00 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FB7A30020FB31E100692939 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0F0FFC1B20FB84B100D44D00 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0F0FFC1D20FB84C600D44D00 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		0F0FFC1F20FB853E00D44D00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0F0FFC2020FB854800D44D00 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0F0FFC2120FB856D00D44D00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F0FFC2220FB857900D44D00 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		0FB7A2F220FB31E100692939 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +176,13 @@
 		0FB7A2FD20FB31E100692939 /* SimpleTimeLogger */ = {
 			isa = PBXGroup;
 			children = (
-				0FB7A2FE20FB31E100692939 /* AppDelegate.swift */,
-				0FB7A30020FB31E100692939 /* ViewController.swift */,
-				0FB7A30220FB31E100692939 /* Main.storyboard */,
-				0FB7A30520FB31E300692939 /* Assets.xcassets */,
-				0FB7A30720FB31E300692939 /* LaunchScreen.storyboard */,
-				0FB7A30A20FB31E300692939 /* Info.plist */,
+				0F0FFC2220FB857900D44D00 /* ViewModels */,
+				0F0FFC2120FB856D00D44D00 /* Views */,
+				0F0FFC1A20FB848A00D44D00 /* ViewControllers */,
+				0F0FFC1B20FB84B100D44D00 /* Services */,
+				0F0FFC1D20FB84C600D44D00 /* Stores */,
+				0F0FFC1820FB845C00D44D00 /* Sources */,
+				0F0FFC1720FB845100D44D00 /* Resources */,
 			);
 			path = SimpleTimeLogger;
 			sourceTree = "<group>";
@@ -363,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -432,7 +512,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLH7AQNPBD;
-				INFOPLIST_FILE = SimpleTimeLogger/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleTimeLogger/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,7 +521,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pavel.antonov.SimpleTimeLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,7 +531,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLH7AQNPBD;
-				INFOPLIST_FILE = SimpleTimeLogger/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleTimeLogger/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +540,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pavel.antonov.SimpleTimeLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
