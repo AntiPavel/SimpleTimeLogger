@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0F0FFC2520FB902B00D44D00 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FFC2420FB902B00D44D00 /* Realm.framework */; };
 		0F0FFC2720FB902E00D44D00 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FFC2620FB902E00D44D00 /* RealmSwift.framework */; };
+		0F0FFC2A20FB92FA00D44D00 /* TimeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC2920FB92FA00D44D00 /* TimeLog.swift */; };
+		0F0FFC2B20FB92FA00D44D00 /* TimeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC2920FB92FA00D44D00 /* TimeLog.swift */; };
+		0F0FFC2C20FB92FA00D44D00 /* TimeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC2920FB92FA00D44D00 /* TimeLog.swift */; };
 		0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A2FE20FB31E100692939 /* AppDelegate.swift */; };
 		0FB7A30120FB31E100692939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A30020FB31E100692939 /* ViewController.swift */; };
 		0FB7A30420FB31E100692939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30220FB31E100692939 /* Main.storyboard */; };
@@ -38,6 +41,7 @@
 /* Begin PBXFileReference section */
 		0F0FFC2420FB902B00D44D00 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		0F0FFC2620FB902E00D44D00 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		0F0FFC2920FB92FA00D44D00 /* TimeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLog.swift; sourceTree = "<group>"; };
 		0FB7A2FB20FB31E100692939 /* SimpleTimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB7A2FE20FB31E100692939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB7A30020FB31E100692939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +138,7 @@
 		0F0FFC1F20FB853E00D44D00 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0F0FFC2920FB92FA00D44D00 /* TimeLog.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -373,6 +378,7 @@
 			files = (
 				0FB7A30120FB31E100692939 /* ViewController.swift in Sources */,
 				0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */,
+				0F0FFC2A20FB92FA00D44D00 /* TimeLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FB7A31420FB31E300692939 /* SimpleTimeLoggerTests.swift in Sources */,
+				0F0FFC2B20FB92FA00D44D00 /* TimeLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FB7A31F20FB31E300692939 /* SimpleTimeLoggerUITests.swift in Sources */,
+				0F0FFC2C20FB92FA00D44D00 /* TimeLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
