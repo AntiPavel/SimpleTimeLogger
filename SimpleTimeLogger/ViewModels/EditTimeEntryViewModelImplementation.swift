@@ -14,16 +14,16 @@ struct EditTimeEntryViewModelImplementation: EditTimeEntryViewModel {
     public var timeEntry: TimeEntry
     
     private let writer: LogWriter
-    private let timeLogFabric: TimeLogFabric
+    private let timeLogFactory: TimeLogFactory
     
     init(writer: LogWriter, log: TimeLog?) {
         self.writer = writer
-        timeLogFabric = TimeLogFabric()
-        timeEntry = timeLogFabric.createTimeEntry(with: log)
+        timeLogFactory = TimeLogFactory()
+        timeEntry = timeLogFactory.createTimeEntry(with: log)
     }
     
     public func saveLog() {
-        writer.setLog(log: timeLogFabric.createTimeLog(with: timeEntry),
+        writer.setLog(log: timeLogFactory.createTimeLog(with: timeEntry),
                       isUpdate: timeEntry.timeLogId != nil)
     }
 }

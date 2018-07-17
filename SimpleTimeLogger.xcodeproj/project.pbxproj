@@ -33,6 +33,9 @@
 		0F0FFC6C20FE573500D44D00 /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6B20FE573500D44D00 /* TimeEntry.swift */; };
 		0F0FFC6D20FE573500D44D00 /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6B20FE573500D44D00 /* TimeEntry.swift */; };
 		0F0FFC6E20FE573500D44D00 /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6B20FE573500D44D00 /* TimeEntry.swift */; };
+		0F0FFC7920FE5E4700D44D00 /* TimeLogFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC7820FE5E4700D44D00 /* TimeLogFactory.swift */; };
+		0F0FFC7A20FE5E4700D44D00 /* TimeLogFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC7820FE5E4700D44D00 /* TimeLogFactory.swift */; };
+		0F0FFC7B20FE5E4700D44D00 /* TimeLogFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC7820FE5E4700D44D00 /* TimeLogFactory.swift */; };
 		0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A2FE20FB31E100692939 /* AppDelegate.swift */; };
 		0FB7A30120FB31E100692939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A30020FB31E100692939 /* ViewController.swift */; };
 		0FB7A30420FB31E100692939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30220FB31E100692939 /* Main.storyboard */; };
@@ -70,6 +73,7 @@
 		0F0FFC6320FD519300D44D00 /* EditTimeEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeEntryViewModel.swift; sourceTree = "<group>"; };
 		0F0FFC6720FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeEntryViewModelImplementation.swift; sourceTree = "<group>"; };
 		0F0FFC6B20FE573500D44D00 /* TimeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntry.swift; sourceTree = "<group>"; };
+		0F0FFC7820FE5E4700D44D00 /* TimeLogFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogFactory.swift; sourceTree = "<group>"; };
 		0FB7A2FB20FB31E100692939 /* SimpleTimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB7A2FE20FB31E100692939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB7A30020FB31E100692939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -208,11 +212,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0F0FFC6F20FE579D00D44D00 /* Fabrics */ = {
+		0F0FFC6F20FE579D00D44D00 /* Factories */ = {
 			isa = PBXGroup;
 			children = (
+				0F0FFC7820FE5E4700D44D00 /* TimeLogFactory.swift */,
 			);
-			path = Fabrics;
+			path = Factories;
 			sourceTree = "<group>";
 		};
 		0FB7A2F220FB31E100692939 = {
@@ -239,7 +244,7 @@
 		0FB7A2FD20FB31E100692939 /* SimpleTimeLogger */ = {
 			isa = PBXGroup;
 			children = (
-				0F0FFC6F20FE579D00D44D00 /* Fabrics */,
+				0F0FFC6F20FE579D00D44D00 /* Factories */,
 				0F0FFC2220FB857900D44D00 /* ViewModels */,
 				0F0FFC2120FB856D00D44D00 /* Views */,
 				0F0FFC1A20FB848A00D44D00 /* ViewControllers */,
@@ -423,6 +428,7 @@
 				0F0FFC3220FBCEE900D44D00 /* RealmStorageService.swift in Sources */,
 				0F0FFC6420FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */,
 				0FB7A30120FB31E100692939 /* ViewController.swift in Sources */,
+				0F0FFC7920FE5E4700D44D00 /* TimeLogFactory.swift in Sources */,
 				0F0FFC6820FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
 				0F0FFC6C20FE573500D44D00 /* TimeEntry.swift in Sources */,
 				0F0FFC6020FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift in Sources */,
@@ -442,6 +448,7 @@
 				0FB7A31420FB31E300692939 /* SimpleTimeLoggerTests.swift in Sources */,
 				0F0FFC2B20FB92FA00D44D00 /* TimeLog.swift in Sources */,
 				0F0FFC6D20FE573500D44D00 /* TimeEntry.swift in Sources */,
+				0F0FFC7A20FE5E4700D44D00 /* TimeLogFactory.swift in Sources */,
 				0F0FFC3320FBCEE900D44D00 /* RealmStorageService.swift in Sources */,
 				0F0FFC6920FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
 				0F0FFC5D20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
@@ -458,6 +465,7 @@
 				0FB7A31F20FB31E300692939 /* SimpleTimeLoggerUITests.swift in Sources */,
 				0F0FFC2C20FB92FA00D44D00 /* TimeLog.swift in Sources */,
 				0F0FFC6E20FE573500D44D00 /* TimeEntry.swift in Sources */,
+				0F0FFC7B20FE5E4700D44D00 /* TimeLogFactory.swift in Sources */,
 				0F0FFC3420FBCEE900D44D00 /* RealmStorageService.swift in Sources */,
 				0F0FFC6A20FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
 				0F0FFC5E20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
