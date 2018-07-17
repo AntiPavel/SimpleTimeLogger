@@ -24,6 +24,12 @@
 		0F0FFC6020FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC5F20FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift */; };
 		0F0FFC6120FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC5F20FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift */; };
 		0F0FFC6220FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC5F20FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift */; };
+		0F0FFC6420FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6320FD519300D44D00 /* EditTimeEntryViewModel.swift */; };
+		0F0FFC6520FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6320FD519300D44D00 /* EditTimeEntryViewModel.swift */; };
+		0F0FFC6620FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6320FD519300D44D00 /* EditTimeEntryViewModel.swift */; };
+		0F0FFC6820FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6720FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift */; };
+		0F0FFC6920FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6720FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift */; };
+		0F0FFC6A20FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6720FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift */; };
 		0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A2FE20FB31E100692939 /* AppDelegate.swift */; };
 		0FB7A30120FB31E100692939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A30020FB31E100692939 /* ViewController.swift */; };
 		0FB7A30420FB31E100692939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30220FB31E100692939 /* Main.storyboard */; };
@@ -58,6 +64,8 @@
 		0F0FFC5720FD3C9700D44D00 /* ReaderWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderWriter.swift; sourceTree = "<group>"; };
 		0F0FFC5B20FD450200D44D00 /* TimeRegistrationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRegistrationListViewModel.swift; sourceTree = "<group>"; };
 		0F0FFC5F20FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRegistrationListViewModelImplementation.swift; sourceTree = "<group>"; };
+		0F0FFC6320FD519300D44D00 /* EditTimeEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeEntryViewModel.swift; sourceTree = "<group>"; };
+		0F0FFC6720FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeEntryViewModelImplementation.swift; sourceTree = "<group>"; };
 		0FB7A2FB20FB31E100692939 /* SimpleTimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB7A2FE20FB31E100692939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB7A30020FB31E100692939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +186,8 @@
 		0F0FFC2220FB857900D44D00 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				0F0FFC6320FD519300D44D00 /* EditTimeEntryViewModel.swift */,
+				0F0FFC6720FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift */,
 				0F0FFC5B20FD450200D44D00 /* TimeRegistrationListViewModel.swift */,
 				0F0FFC5F20FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift */,
 			);
@@ -398,7 +408,9 @@
 			files = (
 				0F0FFC5C20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
 				0F0FFC3220FBCEE900D44D00 /* RealmStorageService.swift in Sources */,
+				0F0FFC6420FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */,
 				0FB7A30120FB31E100692939 /* ViewController.swift in Sources */,
+				0F0FFC6820FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
 				0F0FFC6020FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift in Sources */,
 				0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */,
 				0F0FFC5820FD3C9700D44D00 /* ReaderWriter.swift in Sources */,
@@ -412,9 +424,11 @@
 			files = (
 				0F0FFC6120FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift in Sources */,
 				0F0FFC5920FD3C9700D44D00 /* ReaderWriter.swift in Sources */,
+				0F0FFC6520FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */,
 				0FB7A31420FB31E300692939 /* SimpleTimeLoggerTests.swift in Sources */,
 				0F0FFC2B20FB92FA00D44D00 /* TimeLog.swift in Sources */,
 				0F0FFC3320FBCEE900D44D00 /* RealmStorageService.swift in Sources */,
+				0F0FFC6920FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
 				0F0FFC5D20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,9 +439,11 @@
 			files = (
 				0F0FFC6220FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift in Sources */,
 				0F0FFC5A20FD3C9700D44D00 /* ReaderWriter.swift in Sources */,
+				0F0FFC6620FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */,
 				0FB7A31F20FB31E300692939 /* SimpleTimeLoggerUITests.swift in Sources */,
 				0F0FFC2C20FB92FA00D44D00 /* TimeLog.swift in Sources */,
 				0F0FFC3420FBCEE900D44D00 /* RealmStorageService.swift in Sources */,
+				0F0FFC6A20FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
 				0F0FFC5E20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
