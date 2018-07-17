@@ -42,6 +42,7 @@
 		0F0FFC8120FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC8020FE646400D44D00 /* TimeLogCellViewModelImplementation.swift */; };
 		0F0FFC8220FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC8020FE646400D44D00 /* TimeLogCellViewModelImplementation.swift */; };
 		0F0FFC8320FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC8020FE646400D44D00 /* TimeLogCellViewModelImplementation.swift */; };
+		0F0FFC8B20FE748500D44D00 /* TinyConstraints.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FFC8820FE6FD000D44D00 /* TinyConstraints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A2FE20FB31E100692939 /* AppDelegate.swift */; };
 		0FB7A30120FB31E100692939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A30020FB31E100692939 /* ViewController.swift */; };
 		0FB7A30420FB31E100692939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30220FB31E100692939 /* Main.storyboard */; };
@@ -68,6 +69,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0F0FFC8C20FE748500D44D00 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0F0FFC8B20FE748500D44D00 /* TinyConstraints.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0F0FFC2420FB902B00D44D00 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		0F0FFC2620FB902E00D44D00 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
@@ -82,6 +97,7 @@
 		0F0FFC7820FE5E4700D44D00 /* TimeLogFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogFactory.swift; sourceTree = "<group>"; };
 		0F0FFC7C20FE643900D44D00 /* TimeLogCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogCellViewModel.swift; sourceTree = "<group>"; };
 		0F0FFC8020FE646400D44D00 /* TimeLogCellViewModelImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogCellViewModelImplementation.swift; sourceTree = "<group>"; };
+		0F0FFC8820FE6FD000D44D00 /* TinyConstraints.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyConstraints.framework; path = Carthage/Build/iOS/TinyConstraints.framework; sourceTree = "<group>"; };
 		0FB7A2FB20FB31E100692939 /* SimpleTimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB7A2FE20FB31E100692939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB7A30020FB31E100692939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -216,6 +232,7 @@
 		0F0FFC2320FB902B00D44D00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F0FFC8820FE6FD000D44D00 /* TinyConstraints.framework */,
 				0F0FFC2620FB902E00D44D00 /* RealmSwift.framework */,
 				0F0FFC2420FB902B00D44D00 /* Realm.framework */,
 			);
@@ -295,6 +312,7 @@
 				0FB7A2F820FB31E100692939 /* Frameworks */,
 				0FB7A2F920FB31E100692939 /* Resources */,
 				0F0FFC2820FB904000D44D00 /* ShellScript */,
+				0F0FFC8C20FE748500D44D00 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -656,7 +674,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pavel.antonov.SimpleTimeLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -679,7 +697,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pavel.antonov.SimpleTimeLogger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
