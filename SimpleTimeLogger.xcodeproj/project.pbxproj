@@ -49,6 +49,9 @@
 		0F0FFC9220FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */; };
 		0F0FFC9320FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */; };
 		0F0FFC9420FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */; };
+		0FA08DD52104D142000B6221 /* DateExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DD42104D142000B6221 /* DateExtesion.swift */; };
+		0FA08DD62104D142000B6221 /* DateExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DD42104D142000B6221 /* DateExtesion.swift */; };
+		0FA08DD72104D142000B6221 /* DateExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DD42104D142000B6221 /* DateExtesion.swift */; };
 		0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A2FE20FB31E100692939 /* AppDelegate.swift */; };
 		0FB7A30120FB31E100692939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A30020FB31E100692939 /* ViewController.swift */; };
 		0FB7A30420FB31E100692939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30220FB31E100692939 /* Main.storyboard */; };
@@ -106,6 +109,7 @@
 		0F0FFC8820FE6FD000D44D00 /* TinyConstraints.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyConstraints.framework; path = Carthage/Build/iOS/TinyConstraints.framework; sourceTree = "<group>"; };
 		0F0FFC8D20FE753100D44D00 /* TimeLogCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogCellView.swift; sourceTree = "<group>"; };
 		0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRegistrationListViewController.swift; sourceTree = "<group>"; };
+		0FA08DD42104D142000B6221 /* DateExtesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtesion.swift; sourceTree = "<group>"; };
 		0FB7A2FB20FB31E100692939 /* SimpleTimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB7A2FE20FB31E100692939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB7A30020FB31E100692939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -214,6 +218,7 @@
 		0F0FFC2020FB854800D44D00 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				0FA08DD42104D142000B6221 /* DateExtesion.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -472,6 +477,7 @@
 				0F0FFC6820FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
 				0F0FFC6C20FE573500D44D00 /* TimeEntry.swift in Sources */,
 				0F0FFC6020FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift in Sources */,
+				0FA08DD52104D142000B6221 /* DateExtesion.swift in Sources */,
 				0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */,
 				0F0FFC8E20FE753100D44D00 /* TimeLogCellView.swift in Sources */,
 				0F0FFC5820FD3C9700D44D00 /* ReaderWriter.swift in Sources */,
@@ -484,6 +490,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA08DD62104D142000B6221 /* DateExtesion.swift in Sources */,
 				0F0FFC8F20FE753100D44D00 /* TimeLogCellView.swift in Sources */,
 				0F0FFC6120FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift in Sources */,
 				0F0FFC5920FD3C9700D44D00 /* ReaderWriter.swift in Sources */,
@@ -505,6 +512,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA08DD72104D142000B6221 /* DateExtesion.swift in Sources */,
 				0F0FFC9020FE753100D44D00 /* TimeLogCellView.swift in Sources */,
 				0F0FFC6220FD454600D44D00 /* TimeRegistrationListViewModelImplementation.swift in Sources */,
 				0F0FFC5A20FD3C9700D44D00 /* ReaderWriter.swift in Sources */,
