@@ -87,29 +87,25 @@ final class TimeLogCellView: UICollectionViewCell {
         let topTextLabelHeight: CGFloat = 25
         let bottomTextLabelHeight: CGFloat = 16
         
-        projectLabel.leftToSuperview(offset: horizontalOffset)
-        projectLabel.height(topTextLabelHeight)
-        projectLabel.topToSuperview(offset: verticalOffset)
-        
-        activityLabel.leftToSuperview(offset: horizontalOffset)
-        activityLabel.height(bottomTextLabelHeight)
-        activityLabel.topToBottom(of: projectLabel, offset: verticalOffset)
-        activityLabel.bottomToSuperview(offset: -verticalOffset)
-        
         timeLabel.rightToSuperview(offset: horizontalOffset)
-        timeLabel.leftToRight(of: projectLabel)
         timeLabel.height(topTextLabelHeight)
-        timeLabel.sizeToFit()
-        timeLabel.width(timeLabel.bounds.width)
         timeLabel.topToSuperview(offset: verticalOffset)
         
         statusLabel.rightToSuperview(offset: horizontalOffset)
         statusLabel.height(bottomTextLabelHeight)
-        statusLabel.sizeToFit()
-        statusLabel.width(statusLabel.bounds.width)
-        statusLabel.leftToRight(of: activityLabel)
         statusLabel.topToBottom(of: timeLabel, offset: verticalOffset)
         statusLabel.bottomToSuperview(offset: -verticalOffset)
+        
+        projectLabel.leftToSuperview(offset: horizontalOffset)
+        projectLabel.height(topTextLabelHeight)
+        projectLabel.topToSuperview(offset: verticalOffset)
+        projectLabel.rightToLeft(of: timeLabel)
+        
+        activityLabel.leftToSuperview(offset: horizontalOffset)
+        activityLabel.height(bottomTextLabelHeight)
+        activityLabel.rightToLeft(of: statusLabel)
+        activityLabel.topToBottom(of: projectLabel, offset: verticalOffset)
+        activityLabel.bottomToSuperview(offset: -verticalOffset)
     }
     
     func style(view: UIView) {
