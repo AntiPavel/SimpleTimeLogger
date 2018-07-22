@@ -1,8 +1,8 @@
 //
-//  TimeRegistrationListViewModelImplementation.swift
+//  TimeRegListViewModelImplementation.swift
 //  SimpleTimeLogger
 //
-//  Created by Antonov, Pavel on 7/17/18.
+//  Created by Antonov, Pavel on 7/22/18.
 //  Copyright © 2018 Pavel Antonov. All rights reserved.
 //
 
@@ -19,7 +19,7 @@ struct TimeRegListViewModelImplementation: TimeRegistrationListViewModel {
         self.reader = reader
         self.logs = reader.getLogs()
     }
-
+    
     public mutating func updateLogsWithDates(startDate: Date, endDate: Date) {
         self.logs = reader
             .getLogs()
