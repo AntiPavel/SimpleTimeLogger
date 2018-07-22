@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-final public class RealmStorageService: LogReader, LogWriter  {
+final public class RealmStorageService: LogReader, LogWriter {
     
     private let realm: Realm
     
@@ -21,7 +21,7 @@ final public class RealmStorageService: LogReader, LogWriter  {
         try? realm.write { realm.add(log, update: isUpdate) }
     }
     
-    public func getLogs(startDate: Date, endDate: Date) -> Results<TimeLog> {
+    public func getLogs() -> Results<TimeLog> {
         return realm.objects(TimeLog.self)
     }
 }
