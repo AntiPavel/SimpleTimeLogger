@@ -17,7 +17,7 @@ final class EditTimeEntryViewController: UIViewController {
     
     fileprivate var tableView: UITableView = UITableView(frame: .zero, style: .plain)
     
-    fileprivate var viewModel: EditTimeEntryViewModel {
+    var viewModel: EditTimeEntryViewModel {
         didSet {
             updateCells()
         }
@@ -78,18 +78,20 @@ final class EditTimeEntryViewController: UIViewController {
                            forCellReuseIdentifier: CommentCell.identifier)
     }
     
-    fileprivate lazy var dateCell = TimeEntryParameterCell(title: "date",
+    fileprivate lazy var alertFactory: AlertFactory = AlertActionFactory()
+    
+    fileprivate lazy var dateCell = TimeEntryParameterCell(title: AlertType.date.rawValue,
                                                            label: viewModel.timeEntry.date.toString(),
-                                                           action: setDate)
-    fileprivate lazy var projectCell = TimeEntryParameterCell(title: "project",
+                                                           action: alertFactory.createAlert(alertType: .date, viewController: self))
+    fileprivate lazy var projectCell = TimeEntryParameterCell(title: AlertType.project.rawValue,
                                                               label: viewModel.timeEntry.project ?? "",
-                                                              action: setProject)
-    fileprivate lazy var activityCell = TimeEntryParameterCell(title: "activity",
+                                                              action:  alertFactory.createAlert(alertType: .project, viewController: self))
+    fileprivate lazy var activityCell = TimeEntryParameterCell(title: AlertType.activity.rawValue,
                                                                label: viewModel.timeEntry.activity ?? "",
-                                                               action: setActivity)
-    fileprivate lazy var hoursCell = TimeEntryParameterCell(title: "hours",
+                                                               action:  alertFactory.createAlert(alertType: .activity, viewController: self))
+    fileprivate lazy var hoursCell = TimeEntryParameterCell(title: AlertType.hours.rawValue,
                                                             label: viewModel.timeEntry.hours ?? "",
-                                                            action: setHours)
+                                                            action:  alertFactory.createAlert(alertType: .hours, viewController: self))
     fileprivate lazy var commentCell = CommentCell(comments: viewModel.timeEntry.comments ?? "")
     
     private func updateCells() {
@@ -99,88 +101,8 @@ final class EditTimeEntryViewController: UIViewController {
         hoursCell.label.text = viewModel.timeEntry.hours ?? ""
     }
     
-    fileprivate lazy var setDate: SetParameterAction = { [unowned self] in
-        let alert = UIAlertController(style: .actionSheet, title: "Select Date", message: nil)
-        self.viewModel.timeEntry.date = Date()
-        alert.addDatePicker(mode: .date, date: Date(), minimumDate: nil, maximumDate: Date()) { date in
-            self.viewModel.timeEntry.date = date
-        }
-        alert.addAction(title: "Done", style: .cancel)
-        alert.show()
-    }
-    
-    fileprivate lazy var setProject: SetParameterAction = { [unowned self] in
-        let alert = UIAlertController(style: .actionSheet, title: "Select Project", message: nil)
-        let pickerViewSelectedValue: PickerViewViewController.Index = (column: 0, row: 0)
-        self.viewModel.timeEntry.project = projects[pickerViewSelectedValue.row]
-        alert.addPickerView(values: [projects], initialSelection: pickerViewSelectedValue) { _, _, index, _ in
-            self.viewModel.timeEntry.project = projects[index.row]
-        }
-        alert.addAction(title: "Done", style: .cancel)
-        alert.show()
-    }
-    
-    fileprivate lazy var setActivity: SetParameterAction = { [unowned self] in
-        let alert = UIAlertController(style: .actionSheet, title: "Select Action", message: nil)
-        let pickerViewSelectedValue: PickerViewViewController.Index = (column: 0, row: 0)
-        self.viewModel.timeEntry.activity = activities[pickerViewSelectedValue.row]
-        alert.addPickerView(values: [activities], initialSelection: pickerViewSelectedValue) { _, _, index, _ in
-            self.viewModel.timeEntry.activity = activities[index.row]
-        }
-        alert.addAction(title: "Done", style: .cancel)
-        alert.show()
-    }
-    
-    fileprivate lazy var setHours: SetParameterAction = { [unowned self] in
-        let alert = UIAlertController(style: .actionSheet, title: "Hours Entry", message: nil)
-        let textField: TextField.Config = { textField in
-            textField.leftViewPadding = 12
-            textField.becomeFirstResponder()
-            textField.borderWidth = 1
-            textField.cornerRadius = 8
-            textField.borderColor = UIColor.lightGray.withAlphaComponent(0.5)
-            textField.backgroundColor = nil
-            textField.textColor = .black
-            textField.placeholder = "Type hours"
-            textField.keyboardAppearance = .default
-            textField.keyboardType = .numbersAndPunctuation
-            textField.isSecureTextEntry = false
-            textField.returnKeyType = .done
-            textField.text = self.viewModel.timeEntry.hours
-            textField.delegate = self
-            textField.action { textField in
-                self.viewModel.timeEntry.hours = textField.text
-            }
-        }
-        alert.addOneTextField(configuration: textField)
-        alert.addAction(title: "OK", style: .cancel)
-        alert.show()
-    }
-    
     private func emptyHoursField() {
-        let alert = UIAlertController(style: .alert, title: "Hours Entry", message: "Hours field can't be blank! Please fill it.")
-        let textField: TextField.Config = {[unowned self] textField in
-            textField.leftViewPadding = 12
-            textField.becomeFirstResponder()
-            textField.borderWidth = 1
-            textField.cornerRadius = 8
-            textField.borderColor = UIColor.lightGray.withAlphaComponent(0.5)
-            textField.backgroundColor = nil
-            textField.textColor = .black
-            textField.placeholder = "Type hours"
-            textField.keyboardAppearance = .default
-            textField.keyboardType = .numbersAndPunctuation
-            textField.isSecureTextEntry = false
-            textField.returnKeyType = .done
-            textField.text = self.viewModel.timeEntry.hours
-            textField.delegate = self
-            textField.action { textField in
-                self.viewModel.timeEntry.hours = textField.text
-            }
-        }
-        alert.addOneTextField(configuration: textField)
-        alert.addAction(title: "OK", style: .cancel)
-        alert.show()
+        alertFactory.createAlert(alertType: .emptyHours, viewController: self)()
     }
 }
 
