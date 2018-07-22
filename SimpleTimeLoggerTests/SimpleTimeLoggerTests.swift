@@ -7,6 +7,8 @@
 //
 
 import XCTest
+import Nimble
+import Quick
 @testable import SimpleTimeLogger
 
 class SimpleTimeLoggerTests: XCTestCase {

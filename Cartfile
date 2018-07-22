@@ -1,2 +1,4 @@
 github "realm/realm-cocoa"
 github "roberthein/TinyConstraints"
+github "Quick/Quick"
+github "Quick/Nimble"
