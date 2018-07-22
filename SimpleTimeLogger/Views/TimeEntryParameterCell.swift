@@ -9,7 +9,7 @@
 import UIKit
 import TinyConstraints
 
-typealias SetParameterAction = () -> Void
+public typealias SetParameterAction = () -> Void
 
 final class TimeEntryParameterCell: UITableViewCell {
     
