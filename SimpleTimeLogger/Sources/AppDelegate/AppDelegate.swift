@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         guard let realm = try? Realm() else { return true }
+///       uncomment to fill some mock date to test the filter
+//        let filler = TestLogsFiller.init(realm: realm)
+//        filler.setTestLogs()
         let viewController = TimeRegistrationListViewController(viewModel:
                                 TimeRegListViewModelImplementation(reader:
                                     RealmStorageService(realm: realm)))
