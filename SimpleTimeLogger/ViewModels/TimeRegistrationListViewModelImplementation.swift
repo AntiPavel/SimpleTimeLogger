@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-struct TimeRegistrationListViewModelImplementation: TimeRegistrationListViewModel {
+struct TimeRegListViewModelImplementation: TimeRegistrationListViewModel {
     
     public var logs: Results<TimeLog>
     
@@ -22,7 +22,7 @@ struct TimeRegistrationListViewModelImplementation: TimeRegistrationListViewMode
 
     public mutating func updateLogsWithDates(startDate: Date, endDate: Date) {
         self.logs = reader
-            .getLogs(startDate: startDate, endDate: endDate)
+            .getLogs()
             .filter(NSPredicate(format: "date >=  %@ AND date <=  %@",
                                 argumentArray: [startDate, endDate]))
     }

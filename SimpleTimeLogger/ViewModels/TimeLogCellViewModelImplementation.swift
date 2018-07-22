@@ -12,7 +12,7 @@ struct TimeLogCellViewModelImplementation: TimeLogCellViewModel {
     
     let project: String
     let activity: String
-    let hours: Int
+    let hours: String
     let status: String
     
     init(log: TimeLog) {

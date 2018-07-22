@@ -12,6 +12,6 @@ public protocol TimeLogCellViewModel {
     
     var project: String { get }
     var activity: String { get }
-    var hours: Int { get }
+    var hours: String { get }
     var status: String { get }
 }
