@@ -81,7 +81,6 @@
 		0FA08DFC2104DA90000B6221 /* DoubleDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DF92104DA90000B6221 /* DoubleDatePickerViewController.swift */; };
 		0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A2FE20FB31E100692939 /* AppDelegate.swift */; };
 		0FB7A30120FB31E100692939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A30020FB31E100692939 /* ViewController.swift */; };
-		0FB7A30420FB31E100692939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30220FB31E100692939 /* Main.storyboard */; };
 		0FB7A30620FB31E300692939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30520FB31E300692939 /* Assets.xcassets */; };
 		0FB7A30920FB31E300692939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30720FB31E300692939 /* LaunchScreen.storyboard */; };
 		0FB7A31420FB31E300692939 /* SimpleTimeLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A31320FB31E300692939 /* SimpleTimeLoggerTests.swift */; };
@@ -149,7 +148,6 @@
 		0FB7A2FB20FB31E100692939 /* SimpleTimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB7A2FE20FB31E100692939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB7A30020FB31E100692939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FB7A30320FB31E100692939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FB7A30520FB31E300692939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FB7A30820FB31E300692939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FB7A30A20FB31E300692939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -192,7 +190,6 @@
 			isa = PBXGroup;
 			children = (
 				0FA08DDC2104D461000B6221 /* alerts-and-pickers */,
-				0FB7A30220FB31E100692939 /* Main.storyboard */,
 				0FB7A30520FB31E300692939 /* Assets.xcassets */,
 				0FB7A30720FB31E300692939 /* LaunchScreen.storyboard */,
 				0FB7A30A20FB31E300692939 /* Info.plist */,
@@ -477,7 +474,6 @@
 			files = (
 				0FB7A30920FB31E300692939 /* LaunchScreen.storyboard in Resources */,
 				0FB7A30620FB31E300692939 /* Assets.xcassets in Resources */,
-				0FB7A30420FB31E100692939 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,14 +622,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0FB7A30220FB31E100692939 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FB7A30320FB31E100692939 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0FB7A30720FB31E300692939 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
