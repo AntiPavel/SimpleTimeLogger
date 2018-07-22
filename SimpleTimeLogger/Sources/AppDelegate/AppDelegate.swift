@@ -7,17 +7,23 @@
 //
 
 import UIKit
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        guard let realm = try? Realm() else { return true }
+        let viewController = TimeRegistrationListViewController(viewModel:
+                                TimeRegListViewModelImplementation(reader:
+                                    RealmStorageService(realm: realm)))
+        let navigationController = UINavigationController(rootViewController: viewController)
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
+        
         return true
     }
-
 }
-
