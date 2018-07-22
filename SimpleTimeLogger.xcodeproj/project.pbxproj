@@ -7,9 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0FFC2520FB902B00D44D00 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FFC2420FB902B00D44D00 /* Realm.framework */; };
+		0F0FFC2720FB902E00D44D00 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FFC2620FB902E00D44D00 /* RealmSwift.framework */; };
+		0F0FFC2A20FB92FA00D44D00 /* TimeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC2920FB92FA00D44D00 /* TimeLog.swift */; };
+		0F0FFC2B20FB92FA00D44D00 /* TimeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC2920FB92FA00D44D00 /* TimeLog.swift */; };
+		0F0FFC2C20FB92FA00D44D00 /* TimeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC2920FB92FA00D44D00 /* TimeLog.swift */; };
+		0F0FFC3220FBCEE900D44D00 /* RealmStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC3120FBCEE900D44D00 /* RealmStorageService.swift */; };
+		0F0FFC3320FBCEE900D44D00 /* RealmStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC3120FBCEE900D44D00 /* RealmStorageService.swift */; };
+		0F0FFC3420FBCEE900D44D00 /* RealmStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC3120FBCEE900D44D00 /* RealmStorageService.swift */; };
+		0F0FFC5820FD3C9700D44D00 /* ReaderWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC5720FD3C9700D44D00 /* ReaderWriter.swift */; };
+		0F0FFC5920FD3C9700D44D00 /* ReaderWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC5720FD3C9700D44D00 /* ReaderWriter.swift */; };
+		0F0FFC5A20FD3C9700D44D00 /* ReaderWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC5720FD3C9700D44D00 /* ReaderWriter.swift */; };
+		0F0FFC5C20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC5B20FD450200D44D00 /* TimeRegistrationListViewModel.swift */; };
+		0F0FFC5D20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC5B20FD450200D44D00 /* TimeRegistrationListViewModel.swift */; };
+		0F0FFC5E20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC5B20FD450200D44D00 /* TimeRegistrationListViewModel.swift */; };
+		0F0FFC6420FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6320FD519300D44D00 /* EditTimeEntryViewModel.swift */; };
+		0F0FFC6520FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6320FD519300D44D00 /* EditTimeEntryViewModel.swift */; };
+		0F0FFC6620FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6320FD519300D44D00 /* EditTimeEntryViewModel.swift */; };
+		0F0FFC6820FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6720FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift */; };
+		0F0FFC6920FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6720FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift */; };
+		0F0FFC6A20FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6720FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift */; };
+		0F0FFC6C20FE573500D44D00 /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6B20FE573500D44D00 /* TimeEntry.swift */; };
+		0F0FFC6D20FE573500D44D00 /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6B20FE573500D44D00 /* TimeEntry.swift */; };
+		0F0FFC6E20FE573500D44D00 /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC6B20FE573500D44D00 /* TimeEntry.swift */; };
+		0F0FFC7920FE5E4700D44D00 /* TimeLogFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC7820FE5E4700D44D00 /* TimeLogFactory.swift */; };
+		0F0FFC7A20FE5E4700D44D00 /* TimeLogFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC7820FE5E4700D44D00 /* TimeLogFactory.swift */; };
+		0F0FFC7B20FE5E4700D44D00 /* TimeLogFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC7820FE5E4700D44D00 /* TimeLogFactory.swift */; };
+		0F0FFC7D20FE643900D44D00 /* TimeLogCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC7C20FE643900D44D00 /* TimeLogCellViewModel.swift */; };
+		0F0FFC7E20FE643900D44D00 /* TimeLogCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC7C20FE643900D44D00 /* TimeLogCellViewModel.swift */; };
+		0F0FFC7F20FE643900D44D00 /* TimeLogCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC7C20FE643900D44D00 /* TimeLogCellViewModel.swift */; };
+		0F0FFC8120FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC8020FE646400D44D00 /* TimeLogCellViewModelImplementation.swift */; };
+		0F0FFC8220FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC8020FE646400D44D00 /* TimeLogCellViewModelImplementation.swift */; };
+		0F0FFC8320FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC8020FE646400D44D00 /* TimeLogCellViewModelImplementation.swift */; };
+		0F0FFC8B20FE748500D44D00 /* TinyConstraints.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FFC8820FE6FD000D44D00 /* TinyConstraints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0F0FFC8E20FE753100D44D00 /* TimeLogCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC8D20FE753100D44D00 /* TimeLogCellView.swift */; };
+		0F0FFC8F20FE753100D44D00 /* TimeLogCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC8D20FE753100D44D00 /* TimeLogCellView.swift */; };
+		0F0FFC9020FE753100D44D00 /* TimeLogCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC8D20FE753100D44D00 /* TimeLogCellView.swift */; };
+		0F0FFC9220FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */; };
+		0F0FFC9320FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */; };
+		0F0FFC9420FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */; };
+		0FA08DD52104D142000B6221 /* DateExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DD42104D142000B6221 /* DateExtesion.swift */; };
+		0FA08DD62104D142000B6221 /* DateExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DD42104D142000B6221 /* DateExtesion.swift */; };
+		0FA08DD72104D142000B6221 /* DateExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DD42104D142000B6221 /* DateExtesion.swift */; };
+		0FA08DD92104D2C4000B6221 /* ProjectConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DD82104D2C4000B6221 /* ProjectConfiguration.swift */; };
+		0FA08DDA2104D2C4000B6221 /* ProjectConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DD82104D2C4000B6221 /* ProjectConfiguration.swift */; };
+		0FA08DDB2104D2C4000B6221 /* ProjectConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DD82104D2C4000B6221 /* ProjectConfiguration.swift */; };
+		0FA08DDE2104D4D1000B6221 /* VerticalScrollFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DDD2104D4D1000B6221 /* VerticalScrollFlowLayout.swift */; };
+		0FA08DDF2104D4D1000B6221 /* VerticalScrollFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DDD2104D4D1000B6221 /* VerticalScrollFlowLayout.swift */; };
+		0FA08DE02104D4D1000B6221 /* VerticalScrollFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DDD2104D4D1000B6221 /* VerticalScrollFlowLayout.swift */; };
+		0FA08DE22104D5D7000B6221 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DE12104D5D7000B6221 /* UIViewExtensions.swift */; };
+		0FA08DE32104D5D7000B6221 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DE12104D5D7000B6221 /* UIViewExtensions.swift */; };
+		0FA08DE42104D5D7000B6221 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DE12104D5D7000B6221 /* UIViewExtensions.swift */; };
+		0FA08DE62104D64D000B6221 /* UIAlertControllerExtesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DE52104D64D000B6221 /* UIAlertControllerExtesions.swift */; };
+		0FA08DE72104D64D000B6221 /* UIAlertControllerExtesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DE52104D64D000B6221 /* UIAlertControllerExtesions.swift */; };
+		0FA08DE82104D64D000B6221 /* UIAlertControllerExtesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DE52104D64D000B6221 /* UIAlertControllerExtesions.swift */; };
+		0FA08DEA2104D69B000B6221 /* UITextFieldExtesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DE92104D69B000B6221 /* UITextFieldExtesions.swift */; };
+		0FA08DEB2104D69B000B6221 /* UITextFieldExtesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DE92104D69B000B6221 /* UITextFieldExtesions.swift */; };
+		0FA08DEC2104D69B000B6221 /* UITextFieldExtesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DE92104D69B000B6221 /* UITextFieldExtesions.swift */; };
+		0FA08DEE2104D746000B6221 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DED2104D746000B6221 /* TextField.swift */; };
+		0FA08DEF2104D746000B6221 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DED2104D746000B6221 /* TextField.swift */; };
+		0FA08DF02104D746000B6221 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DED2104D746000B6221 /* TextField.swift */; };
+		0FA08DF22104D7D3000B6221 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DF12104D7D3000B6221 /* DatePickerViewController.swift */; };
+		0FA08DF32104D7D3000B6221 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DF12104D7D3000B6221 /* DatePickerViewController.swift */; };
+		0FA08DF42104D7D3000B6221 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DF12104D7D3000B6221 /* DatePickerViewController.swift */; };
+		0FA08DF62104D87A000B6221 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DF52104D87A000B6221 /* PickerViewViewController.swift */; };
+		0FA08DF72104D87A000B6221 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DF52104D87A000B6221 /* PickerViewViewController.swift */; };
+		0FA08DF82104D87A000B6221 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DF52104D87A000B6221 /* PickerViewViewController.swift */; };
+		0FA08DFA2104DA90000B6221 /* DoubleDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DF92104DA90000B6221 /* DoubleDatePickerViewController.swift */; };
+		0FA08DFB2104DA90000B6221 /* DoubleDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DF92104DA90000B6221 /* DoubleDatePickerViewController.swift */; };
+		0FA08DFC2104DA90000B6221 /* DoubleDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DF92104DA90000B6221 /* DoubleDatePickerViewController.swift */; };
+		0FA08DFE2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DFD2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift */; };
+		0FA08DFF2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DFD2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift */; };
+		0FA08E002104DC2D000B6221 /* TimeRegListViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DFD2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift */; };
+		0FA08E022104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E012104DCEB000B6221 /* TimeEntryParameterCell.swift */; };
+		0FA08E032104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E012104DCEB000B6221 /* TimeEntryParameterCell.swift */; };
+		0FA08E042104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E012104DCEB000B6221 /* TimeEntryParameterCell.swift */; };
+		0FA08E062104E802000B6221 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E052104E802000B6221 /* CommentCell.swift */; };
+		0FA08E072104E802000B6221 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E052104E802000B6221 /* CommentCell.swift */; };
+		0FA08E082104E802000B6221 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E052104E802000B6221 /* CommentCell.swift */; };
+		0FA08E0E2104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */; };
+		0FA08E0F2104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */; };
+		0FA08E102104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */; };
 		0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A2FE20FB31E100692939 /* AppDelegate.swift */; };
-		0FB7A30120FB31E100692939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A30020FB31E100692939 /* ViewController.swift */; };
-		0FB7A30420FB31E100692939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30220FB31E100692939 /* Main.storyboard */; };
 		0FB7A30620FB31E300692939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30520FB31E300692939 /* Assets.xcassets */; };
 		0FB7A30920FB31E300692939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30720FB31E300692939 /* LaunchScreen.storyboard */; };
 		0FB7A31420FB31E300692939 /* SimpleTimeLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A31320FB31E300692939 /* SimpleTimeLoggerTests.swift */; };
@@ -33,11 +112,52 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0F0FFC8C20FE748500D44D00 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0F0FFC8B20FE748500D44D00 /* TinyConstraints.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0F0FFC2420FB902B00D44D00 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		0F0FFC2620FB902E00D44D00 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		0F0FFC2920FB92FA00D44D00 /* TimeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLog.swift; sourceTree = "<group>"; };
+		0F0FFC3120FBCEE900D44D00 /* RealmStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStorageService.swift; sourceTree = "<group>"; };
+		0F0FFC5720FD3C9700D44D00 /* ReaderWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderWriter.swift; sourceTree = "<group>"; };
+		0F0FFC5B20FD450200D44D00 /* TimeRegistrationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRegistrationListViewModel.swift; sourceTree = "<group>"; };
+		0F0FFC6320FD519300D44D00 /* EditTimeEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeEntryViewModel.swift; sourceTree = "<group>"; };
+		0F0FFC6720FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeEntryViewModelImplementation.swift; sourceTree = "<group>"; };
+		0F0FFC6B20FE573500D44D00 /* TimeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntry.swift; sourceTree = "<group>"; };
+		0F0FFC7820FE5E4700D44D00 /* TimeLogFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogFactory.swift; sourceTree = "<group>"; };
+		0F0FFC7C20FE643900D44D00 /* TimeLogCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogCellViewModel.swift; sourceTree = "<group>"; };
+		0F0FFC8020FE646400D44D00 /* TimeLogCellViewModelImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogCellViewModelImplementation.swift; sourceTree = "<group>"; };
+		0F0FFC8820FE6FD000D44D00 /* TinyConstraints.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyConstraints.framework; path = Carthage/Build/iOS/TinyConstraints.framework; sourceTree = "<group>"; };
+		0F0FFC8D20FE753100D44D00 /* TimeLogCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogCellView.swift; sourceTree = "<group>"; };
+		0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRegistrationListViewController.swift; sourceTree = "<group>"; };
+		0FA08DD42104D142000B6221 /* DateExtesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtesion.swift; sourceTree = "<group>"; };
+		0FA08DD82104D2C4000B6221 /* ProjectConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectConfiguration.swift; sourceTree = "<group>"; };
+		0FA08DDD2104D4D1000B6221 /* VerticalScrollFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollFlowLayout.swift; sourceTree = "<group>"; };
+		0FA08DE12104D5D7000B6221 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		0FA08DE52104D64D000B6221 /* UIAlertControllerExtesions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtesions.swift; sourceTree = "<group>"; };
+		0FA08DE92104D69B000B6221 /* UITextFieldExtesions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtesions.swift; sourceTree = "<group>"; };
+		0FA08DED2104D746000B6221 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		0FA08DF12104D7D3000B6221 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		0FA08DF52104D87A000B6221 /* PickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		0FA08DF92104DA90000B6221 /* DoubleDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDatePickerViewController.swift; sourceTree = "<group>"; };
+		0FA08DFD2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRegListViewModelImplementation.swift; sourceTree = "<group>"; };
+		0FA08E012104DCEB000B6221 /* TimeEntryParameterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntryParameterCell.swift; sourceTree = "<group>"; };
+		0FA08E052104E802000B6221 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeEntryViewController.swift; sourceTree = "<group>"; };
 		0FB7A2FB20FB31E100692939 /* SimpleTimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB7A2FE20FB31E100692939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FB7A30020FB31E100692939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FB7A30320FB31E100692939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FB7A30520FB31E300692939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FB7A30820FB31E300692939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FB7A30A20FB31E300692939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +174,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0FFC2520FB902B00D44D00 /* Realm.framework in Frameworks */,
+				0F0FFC2720FB902E00D44D00 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +196,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F0FFC1720FB845100D44D00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FA08DDC2104D461000B6221 /* alerts-and-pickers */,
+				0FB7A30520FB31E300692939 /* Assets.xcassets */,
+				0FB7A30720FB31E300692939 /* LaunchScreen.storyboard */,
+				0FB7A30A20FB31E300692939 /* Info.plist */,
+				0FA08DD82104D2C4000B6221 /* ProjectConfiguration.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0F0FFC1820FB845C00D44D00 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FFC2020FB854800D44D00 /* Extensions */,
+				0F0FFC1F20FB853E00D44D00 /* Models */,
+				0F0FFC1920FB847600D44D00 /* AppDelegate */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0F0FFC1920FB847600D44D00 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0FB7A2FE20FB31E100692939 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0F0FFC1A20FB848A00D44D00 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */,
+				0FA08DF92104DA90000B6221 /* DoubleDatePickerViewController.swift */,
+				0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0F0FFC1B20FB84B100D44D00 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FFC5720FD3C9700D44D00 /* ReaderWriter.swift */,
+				0F0FFC3120FBCEE900D44D00 /* RealmStorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0F0FFC1D20FB84C600D44D00 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		0F0FFC1F20FB853E00D44D00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FFC2920FB92FA00D44D00 /* TimeLog.swift */,
+				0F0FFC6B20FE573500D44D00 /* TimeEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0F0FFC2020FB854800D44D00 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0FA08DD42104D142000B6221 /* DateExtesion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0F0FFC2120FB856D00D44D00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FFC8D20FE753100D44D00 /* TimeLogCellView.swift */,
+				0FA08E052104E802000B6221 /* CommentCell.swift */,
+				0FA08E012104DCEB000B6221 /* TimeEntryParameterCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F0FFC2220FB857900D44D00 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FFC6320FD519300D44D00 /* EditTimeEntryViewModel.swift */,
+				0F0FFC6720FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift */,
+				0F0FFC7C20FE643900D44D00 /* TimeLogCellViewModel.swift */,
+				0F0FFC8020FE646400D44D00 /* TimeLogCellViewModelImplementation.swift */,
+				0F0FFC5B20FD450200D44D00 /* TimeRegistrationListViewModel.swift */,
+				0FA08DFD2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0F0FFC2320FB902B00D44D00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FFC8820FE6FD000D44D00 /* TinyConstraints.framework */,
+				0F0FFC2620FB902E00D44D00 /* RealmSwift.framework */,
+				0F0FFC2420FB902B00D44D00 /* Realm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F0FFC6F20FE579D00D44D00 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FFC7820FE5E4700D44D00 /* TimeLogFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		0FA08DDC2104D461000B6221 /* alerts-and-pickers */ = {
+			isa = PBXGroup;
+			children = (
+				0FA08DDD2104D4D1000B6221 /* VerticalScrollFlowLayout.swift */,
+				0FA08DE12104D5D7000B6221 /* UIViewExtensions.swift */,
+				0FA08DE52104D64D000B6221 /* UIAlertControllerExtesions.swift */,
+				0FA08DE92104D69B000B6221 /* UITextFieldExtesions.swift */,
+				0FA08DED2104D746000B6221 /* TextField.swift */,
+				0FA08DF12104D7D3000B6221 /* DatePickerViewController.swift */,
+				0FA08DF52104D87A000B6221 /* PickerViewViewController.swift */,
+			);
+			path = "alerts-and-pickers";
+			sourceTree = "<group>";
+		};
 		0FB7A2F220FB31E100692939 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +331,7 @@
 				0FB7A31220FB31E300692939 /* SimpleTimeLoggerTests */,
 				0FB7A31D20FB31E300692939 /* SimpleTimeLoggerUITests */,
 				0FB7A2FC20FB31E100692939 /* Products */,
+				0F0FFC2320FB902B00D44D00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +348,14 @@
 		0FB7A2FD20FB31E100692939 /* SimpleTimeLogger */ = {
 			isa = PBXGroup;
 			children = (
-				0FB7A2FE20FB31E100692939 /* AppDelegate.swift */,
-				0FB7A30020FB31E100692939 /* ViewController.swift */,
-				0FB7A30220FB31E100692939 /* Main.storyboard */,
-				0FB7A30520FB31E300692939 /* Assets.xcassets */,
-				0FB7A30720FB31E300692939 /* LaunchScreen.storyboard */,
-				0FB7A30A20FB31E300692939 /* Info.plist */,
+				0F0FFC6F20FE579D00D44D00 /* Factories */,
+				0F0FFC2220FB857900D44D00 /* ViewModels */,
+				0F0FFC2120FB856D00D44D00 /* Views */,
+				0F0FFC1A20FB848A00D44D00 /* ViewControllers */,
+				0F0FFC1B20FB84B100D44D00 /* Services */,
+				0F0FFC1D20FB84C600D44D00 /* Stores */,
+				0F0FFC1820FB845C00D44D00 /* Sources */,
+				0F0FFC1720FB845100D44D00 /* Resources */,
 			);
 			path = SimpleTimeLogger;
 			sourceTree = "<group>";
@@ -135,6 +388,8 @@
 				0FB7A2F720FB31E100692939 /* Sources */,
 				0FB7A2F820FB31E100692939 /* Frameworks */,
 				0FB7A2F920FB31E100692939 /* Resources */,
+				0F0FFC2820FB904000D44D00 /* ShellScript */,
+				0F0FFC8C20FE748500D44D00 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +486,6 @@
 			files = (
 				0FB7A30920FB31E300692939 /* LaunchScreen.storyboard in Resources */,
 				0FB7A30620FB31E300692939 /* Assets.xcassets in Resources */,
-				0FB7A30420FB31E100692939 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +505,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F0FFC2820FB904000D44D00 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0FB7A2F720FB31E100692939 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FB7A30120FB31E100692939 /* ViewController.swift in Sources */,
+				0F0FFC5C20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
+				0FA08DEE2104D746000B6221 /* TextField.swift in Sources */,
+				0F0FFC9220FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */,
+				0FA08DE62104D64D000B6221 /* UIAlertControllerExtesions.swift in Sources */,
+				0F0FFC3220FBCEE900D44D00 /* RealmStorageService.swift in Sources */,
+				0F0FFC6420FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */,
+				0FA08DFE2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift in Sources */,
+				0F0FFC8120FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */,
+				0F0FFC7920FE5E4700D44D00 /* TimeLogFactory.swift in Sources */,
+				0F0FFC6820FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
+				0FA08DFA2104DA90000B6221 /* DoubleDatePickerViewController.swift in Sources */,
+				0FA08DDE2104D4D1000B6221 /* VerticalScrollFlowLayout.swift in Sources */,
+				0F0FFC6C20FE573500D44D00 /* TimeEntry.swift in Sources */,
+				0FA08E062104E802000B6221 /* CommentCell.swift in Sources */,
+				0FA08DE22104D5D7000B6221 /* UIViewExtensions.swift in Sources */,
+				0FA08DEA2104D69B000B6221 /* UITextFieldExtesions.swift in Sources */,
+				0FA08DD92104D2C4000B6221 /* ProjectConfiguration.swift in Sources */,
+				0FA08DD52104D142000B6221 /* DateExtesion.swift in Sources */,
+				0FA08DF62104D87A000B6221 /* PickerViewViewController.swift in Sources */,
+				0FA08E022104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */,
 				0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */,
+				0F0FFC8E20FE753100D44D00 /* TimeLogCellView.swift in Sources */,
+				0F0FFC5820FD3C9700D44D00 /* ReaderWriter.swift in Sources */,
+				0FA08DF22104D7D3000B6221 /* DatePickerViewController.swift in Sources */,
+				0F0FFC7D20FE643900D44D00 /* TimeLogCellViewModel.swift in Sources */,
+				0FA08E0E2104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */,
+				0F0FFC2A20FB92FA00D44D00 /* TimeLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +562,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA08DD62104D142000B6221 /* DateExtesion.swift in Sources */,
+				0F0FFC8F20FE753100D44D00 /* TimeLogCellView.swift in Sources */,
+				0FA08DDF2104D4D1000B6221 /* VerticalScrollFlowLayout.swift in Sources */,
+				0FA08DEF2104D746000B6221 /* TextField.swift in Sources */,
+				0FA08DF32104D7D3000B6221 /* DatePickerViewController.swift in Sources */,
+				0FA08DFB2104DA90000B6221 /* DoubleDatePickerViewController.swift in Sources */,
+				0F0FFC5920FD3C9700D44D00 /* ReaderWriter.swift in Sources */,
+				0FA08DDA2104D2C4000B6221 /* ProjectConfiguration.swift in Sources */,
+				0FA08DF72104D87A000B6221 /* PickerViewViewController.swift in Sources */,
+				0FA08DEB2104D69B000B6221 /* UITextFieldExtesions.swift in Sources */,
+				0F0FFC6520FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */,
 				0FB7A31420FB31E300692939 /* SimpleTimeLoggerTests.swift in Sources */,
+				0F0FFC2B20FB92FA00D44D00 /* TimeLog.swift in Sources */,
+				0FA08E072104E802000B6221 /* CommentCell.swift in Sources */,
+				0F0FFC7E20FE643900D44D00 /* TimeLogCellViewModel.swift in Sources */,
+				0F0FFC6D20FE573500D44D00 /* TimeEntry.swift in Sources */,
+				0F0FFC9320FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */,
+				0F0FFC7A20FE5E4700D44D00 /* TimeLogFactory.swift in Sources */,
+				0F0FFC3320FBCEE900D44D00 /* RealmStorageService.swift in Sources */,
+				0FA08DE72104D64D000B6221 /* UIAlertControllerExtesions.swift in Sources */,
+				0FA08DFF2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift in Sources */,
+				0F0FFC6920FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
+				0FA08E0F2104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */,
+				0F0FFC8220FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */,
+				0FA08DE32104D5D7000B6221 /* UIViewExtensions.swift in Sources */,
+				0F0FFC5D20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
+				0FA08E032104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +596,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA08DD72104D142000B6221 /* DateExtesion.swift in Sources */,
+				0F0FFC9020FE753100D44D00 /* TimeLogCellView.swift in Sources */,
+				0FA08DE02104D4D1000B6221 /* VerticalScrollFlowLayout.swift in Sources */,
+				0FA08DF02104D746000B6221 /* TextField.swift in Sources */,
+				0FA08DF42104D7D3000B6221 /* DatePickerViewController.swift in Sources */,
+				0FA08DFC2104DA90000B6221 /* DoubleDatePickerViewController.swift in Sources */,
+				0F0FFC5A20FD3C9700D44D00 /* ReaderWriter.swift in Sources */,
+				0FA08DDB2104D2C4000B6221 /* ProjectConfiguration.swift in Sources */,
+				0FA08DF82104D87A000B6221 /* PickerViewViewController.swift in Sources */,
+				0FA08DEC2104D69B000B6221 /* UITextFieldExtesions.swift in Sources */,
+				0F0FFC6620FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */,
 				0FB7A31F20FB31E300692939 /* SimpleTimeLoggerUITests.swift in Sources */,
+				0F0FFC2C20FB92FA00D44D00 /* TimeLog.swift in Sources */,
+				0FA08E082104E802000B6221 /* CommentCell.swift in Sources */,
+				0F0FFC7F20FE643900D44D00 /* TimeLogCellViewModel.swift in Sources */,
+				0F0FFC6E20FE573500D44D00 /* TimeEntry.swift in Sources */,
+				0F0FFC9420FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */,
+				0F0FFC7B20FE5E4700D44D00 /* TimeLogFactory.swift in Sources */,
+				0F0FFC3420FBCEE900D44D00 /* RealmStorageService.swift in Sources */,
+				0FA08DE82104D64D000B6221 /* UIAlertControllerExtesions.swift in Sources */,
+				0FA08E002104DC2D000B6221 /* TimeRegListViewModelImplementation.swift in Sources */,
+				0F0FFC6A20FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
+				0FA08E102104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */,
+				0F0FFC8320FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */,
+				0FA08DE42104D5D7000B6221 /* UIViewExtensions.swift in Sources */,
+				0F0FFC5E20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
+				0FA08E042104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +642,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0FB7A30220FB31E100692939 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FB7A30320FB31E100692939 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0FB7A30720FB31E300692939 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,7 +704,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +758,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -432,7 +773,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLH7AQNPBD;
-				INFOPLIST_FILE = SimpleTimeLogger/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleTimeLogger/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +796,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLH7AQNPBD;
-				INFOPLIST_FILE = SimpleTimeLogger/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleTimeLogger/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
