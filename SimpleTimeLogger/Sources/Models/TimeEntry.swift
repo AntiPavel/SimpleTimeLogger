@@ -13,7 +13,7 @@ public struct TimeEntry {
     var date: Date = Date()
     var project: String?
     var activity: String?
-    var hours: Int?
+    var hours: String?
     var comments: String?
     var status: String?
     var timeLogId: String?
