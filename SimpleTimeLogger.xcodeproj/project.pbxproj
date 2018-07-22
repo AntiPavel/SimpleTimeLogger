@@ -88,6 +88,16 @@
 		0FA08E0E2104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */; };
 		0FA08E0F2104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */; };
 		0FA08E102104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */; };
+		0FA08E132104F558000B6221 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA08E112104F557000B6221 /* Nimble.framework */; };
+		0FA08E142104F558000B6221 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA08E122104F557000B6221 /* Quick.framework */; };
+		0FA08E162104F5A2000B6221 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0FA08E112104F557000B6221 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FA08E172104F5A2000B6221 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0FA08E122104F557000B6221 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FA08E182104F638000B6221 /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FFC8820FE6FD000D44D00 /* TinyConstraints.framework */; };
+		0FA08E192104F697000B6221 /* TinyConstraints.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F0FFC8820FE6FD000D44D00 /* TinyConstraints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FA08E1A2104FBAE000B6221 /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FFC8820FE6FD000D44D00 /* TinyConstraints.framework */; };
+		0FA08E1D21050705000B6221 /* AlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E1C21050705000B6221 /* AlertFactory.swift */; };
+		0FA08E1E21050705000B6221 /* AlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E1C21050705000B6221 /* AlertFactory.swift */; };
+		0FA08E1F21050705000B6221 /* AlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E1C21050705000B6221 /* AlertFactory.swift */; };
 		0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A2FE20FB31E100692939 /* AppDelegate.swift */; };
 		0FB7A30620FB31E300692939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30520FB31E300692939 /* Assets.xcassets */; };
 		0FB7A30920FB31E300692939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30720FB31E300692939 /* LaunchScreen.storyboard */; };
@@ -124,6 +134,18 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0FA08E152104F572000B6221 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0FA08E192104F697000B6221 /* TinyConstraints.framework in CopyFiles */,
+				0FA08E162104F5A2000B6221 /* Nimble.framework in CopyFiles */,
+				0FA08E172104F5A2000B6221 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -156,6 +178,9 @@
 		0FA08E012104DCEB000B6221 /* TimeEntryParameterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntryParameterCell.swift; sourceTree = "<group>"; };
 		0FA08E052104E802000B6221 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeEntryViewController.swift; sourceTree = "<group>"; };
+		0FA08E112104F557000B6221 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		0FA08E122104F557000B6221 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		0FA08E1C21050705000B6221 /* AlertFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFactory.swift; sourceTree = "<group>"; };
 		0FB7A2FB20FB31E100692939 /* SimpleTimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB7A2FE20FB31E100692939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB7A30520FB31E300692939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -183,6 +208,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA08E182104F638000B6221 /* TinyConstraints.framework in Frameworks */,
+				0FA08E132104F558000B6221 /* Nimble.framework in Frameworks */,
+				0FA08E142104F558000B6221 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA08E1A2104FBAE000B6221 /* TinyConstraints.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +228,6 @@
 		0F0FFC1720FB845100D44D00 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0FA08DDC2104D461000B6221 /* alerts-and-pickers */,
 				0FB7A30520FB31E300692939 /* Assets.xcassets */,
 				0FB7A30720FB31E300692939 /* LaunchScreen.storyboard */,
 				0FB7A30A20FB31E300692939 /* Info.plist */,
@@ -211,6 +239,7 @@
 		0F0FFC1820FB845C00D44D00 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				0FA08DDC2104D461000B6221 /* alerts-and-pickers */,
 				0F0FFC2020FB854800D44D00 /* Extensions */,
 				0F0FFC1F20FB853E00D44D00 /* Models */,
 				0F0FFC1920FB847600D44D00 /* AppDelegate */,
@@ -295,6 +324,8 @@
 		0F0FFC2320FB902B00D44D00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0FA08E112104F557000B6221 /* Nimble.framework */,
+				0FA08E122104F557000B6221 /* Quick.framework */,
 				0F0FFC8820FE6FD000D44D00 /* TinyConstraints.framework */,
 				0F0FFC2620FB902E00D44D00 /* RealmSwift.framework */,
 				0F0FFC2420FB902B00D44D00 /* Realm.framework */,
@@ -306,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				0F0FFC7820FE5E4700D44D00 /* TimeLogFactory.swift */,
+				0FA08E1C21050705000B6221 /* AlertFactory.swift */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -407,6 +439,8 @@
 				0FB7A30B20FB31E300692939 /* Sources */,
 				0FB7A30C20FB31E300692939 /* Frameworks */,
 				0FB7A30D20FB31E300692939 /* Resources */,
+				0FA08E152104F572000B6221 /* CopyFiles */,
+				0FA08E1B2104FBCC000B6221 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -521,6 +555,20 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
+		0FA08E1B2104FBCC000B6221 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)//Carthage/Build/iOS/TinyConstraints.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -553,6 +601,7 @@
 				0F0FFC5820FD3C9700D44D00 /* ReaderWriter.swift in Sources */,
 				0FA08DF22104D7D3000B6221 /* DatePickerViewController.swift in Sources */,
 				0F0FFC7D20FE643900D44D00 /* TimeLogCellViewModel.swift in Sources */,
+				0FA08E1D21050705000B6221 /* AlertFactory.swift in Sources */,
 				0FA08E0E2104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */,
 				0F0FFC2A20FB92FA00D44D00 /* TimeLog.swift in Sources */,
 			);
@@ -587,6 +636,7 @@
 				0FA08E0F2104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */,
 				0F0FFC8220FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */,
 				0FA08DE32104D5D7000B6221 /* UIViewExtensions.swift in Sources */,
+				0FA08E1E21050705000B6221 /* AlertFactory.swift in Sources */,
 				0F0FFC5D20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
 				0FA08E032104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */,
 			);
@@ -621,6 +671,7 @@
 				0FA08E102104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */,
 				0F0FFC8320FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */,
 				0FA08DE42104D5D7000B6221 /* UIViewExtensions.swift in Sources */,
+				0FA08E1F21050705000B6221 /* AlertFactory.swift in Sources */,
 				0F0FFC5E20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
 				0FA08E042104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */,
 			);
@@ -820,6 +871,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLH7AQNPBD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(SRCROOT)/Carthage/Build/iOS/**",
+				);
 				INFOPLIST_FILE = SimpleTimeLoggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -841,6 +897,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLH7AQNPBD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(SRCROOT)/Carthage/Build/iOS/**",
+				);
 				INFOPLIST_FILE = SimpleTimeLoggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -861,6 +922,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLH7AQNPBD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SimpleTimeLoggerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -881,6 +946,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WLH7AQNPBD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SimpleTimeLoggerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
