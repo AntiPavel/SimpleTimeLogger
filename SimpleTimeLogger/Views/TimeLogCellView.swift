@@ -6,8 +6,6 @@
 //  Copyright © 2018 Pavel Antonov. All rights reserved.
 //
 
-import Foundation
-
 import UIKit
 import TinyConstraints
 

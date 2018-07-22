@@ -11,7 +11,7 @@ import UIKit
 import TinyConstraints
 import RealmSwift
 
-class TimeRegistrationListViewController: UIViewController {
+final class TimeRegistrationListViewController: UIViewController {
     
     private var viewModel: TimeRegistrationListViewModel
     private var notificationToken: NotificationToken?

@@ -89,7 +89,6 @@
 		0FA08E0F2104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */; };
 		0FA08E102104EB6A000B6221 /* EditTimeEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */; };
 		0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A2FE20FB31E100692939 /* AppDelegate.swift */; };
-		0FB7A30120FB31E100692939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A30020FB31E100692939 /* ViewController.swift */; };
 		0FB7A30620FB31E300692939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30520FB31E300692939 /* Assets.xcassets */; };
 		0FB7A30920FB31E300692939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30720FB31E300692939 /* LaunchScreen.storyboard */; };
 		0FB7A31420FB31E300692939 /* SimpleTimeLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A31320FB31E300692939 /* SimpleTimeLoggerTests.swift */; };
@@ -159,7 +158,6 @@
 		0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeEntryViewController.swift; sourceTree = "<group>"; };
 		0FB7A2FB20FB31E100692939 /* SimpleTimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB7A2FE20FB31E100692939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FB7A30020FB31E100692939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0FB7A30520FB31E300692939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FB7A30820FB31E300692939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FB7A30A20FB31E300692939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -231,7 +229,6 @@
 		0F0FFC1A20FB848A00D44D00 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0FB7A30020FB31E100692939 /* ViewController.swift */,
 				0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */,
 				0FA08DF92104DA90000B6221 /* DoubleDatePickerViewController.swift */,
 				0FA08E0D2104EB6A000B6221 /* EditTimeEntryViewController.swift */,
@@ -539,7 +536,6 @@
 				0F0FFC6420FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */,
 				0FA08DFE2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift in Sources */,
 				0F0FFC8120FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */,
-				0FB7A30120FB31E100692939 /* ViewController.swift in Sources */,
 				0F0FFC7920FE5E4700D44D00 /* TimeLogFactory.swift in Sources */,
 				0F0FFC6820FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
 				0FA08DFA2104DA90000B6221 /* DoubleDatePickerViewController.swift in Sources */,

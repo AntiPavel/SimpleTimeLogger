@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct TimeLogFactory {
+public struct TimeLogFactory {
     
     func createTimeEntry(with timeLog: TimeLog?) -> TimeEntry {
         
