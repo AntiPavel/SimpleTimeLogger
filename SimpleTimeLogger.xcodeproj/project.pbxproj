@@ -79,6 +79,9 @@
 		0FA08DFE2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DFD2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift */; };
 		0FA08DFF2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DFD2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift */; };
 		0FA08E002104DC2D000B6221 /* TimeRegListViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08DFD2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift */; };
+		0FA08E022104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E012104DCEB000B6221 /* TimeEntryParameterCell.swift */; };
+		0FA08E032104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E012104DCEB000B6221 /* TimeEntryParameterCell.swift */; };
+		0FA08E042104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA08E012104DCEB000B6221 /* TimeEntryParameterCell.swift */; };
 		0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A2FE20FB31E100692939 /* AppDelegate.swift */; };
 		0FB7A30120FB31E100692939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A30020FB31E100692939 /* ViewController.swift */; };
 		0FB7A30620FB31E300692939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30520FB31E300692939 /* Assets.xcassets */; };
@@ -145,6 +148,7 @@
 		0FA08DF52104D87A000B6221 /* PickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
 		0FA08DF92104DA90000B6221 /* DoubleDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDatePickerViewController.swift; sourceTree = "<group>"; };
 		0FA08DFD2104DC2D000B6221 /* TimeRegListViewModelImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRegListViewModelImplementation.swift; sourceTree = "<group>"; };
+		0FA08E012104DCEB000B6221 /* TimeEntryParameterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntryParameterCell.swift; sourceTree = "<group>"; };
 		0FB7A2FB20FB31E100692939 /* SimpleTimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB7A2FE20FB31E100692939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB7A30020FB31E100692939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -263,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				0F0FFC8D20FE753100D44D00 /* TimeLogCellView.swift */,
+				0FA08E012104DCEB000B6221 /* TimeEntryParameterCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -535,6 +540,7 @@
 				0FA08DD92104D2C4000B6221 /* ProjectConfiguration.swift in Sources */,
 				0FA08DD52104D142000B6221 /* DateExtesion.swift in Sources */,
 				0FA08DF62104D87A000B6221 /* PickerViewViewController.swift in Sources */,
+				0FA08E022104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */,
 				0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */,
 				0F0FFC8E20FE753100D44D00 /* TimeLogCellView.swift in Sources */,
 				0F0FFC5820FD3C9700D44D00 /* ReaderWriter.swift in Sources */,
@@ -572,6 +578,7 @@
 				0F0FFC8220FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */,
 				0FA08DE32104D5D7000B6221 /* UIViewExtensions.swift in Sources */,
 				0F0FFC5D20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
+				0FA08E032104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +610,7 @@
 				0F0FFC8320FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */,
 				0FA08DE42104D5D7000B6221 /* UIViewExtensions.swift in Sources */,
 				0F0FFC5E20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
+				0FA08E042104DCEB000B6221 /* TimeEntryParameterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
