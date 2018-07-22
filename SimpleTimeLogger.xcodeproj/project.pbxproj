@@ -46,6 +46,9 @@
 		0F0FFC8E20FE753100D44D00 /* TimeLogCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC8D20FE753100D44D00 /* TimeLogCellView.swift */; };
 		0F0FFC8F20FE753100D44D00 /* TimeLogCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC8D20FE753100D44D00 /* TimeLogCellView.swift */; };
 		0F0FFC9020FE753100D44D00 /* TimeLogCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC8D20FE753100D44D00 /* TimeLogCellView.swift */; };
+		0F0FFC9220FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */; };
+		0F0FFC9320FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */; };
+		0F0FFC9420FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */; };
 		0FB7A2FF20FB31E100692939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A2FE20FB31E100692939 /* AppDelegate.swift */; };
 		0FB7A30120FB31E100692939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7A30020FB31E100692939 /* ViewController.swift */; };
 		0FB7A30420FB31E100692939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7A30220FB31E100692939 /* Main.storyboard */; };
@@ -102,6 +105,7 @@
 		0F0FFC8020FE646400D44D00 /* TimeLogCellViewModelImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogCellViewModelImplementation.swift; sourceTree = "<group>"; };
 		0F0FFC8820FE6FD000D44D00 /* TinyConstraints.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyConstraints.framework; path = Carthage/Build/iOS/TinyConstraints.framework; sourceTree = "<group>"; };
 		0F0FFC8D20FE753100D44D00 /* TimeLogCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogCellView.swift; sourceTree = "<group>"; };
+		0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRegistrationListViewController.swift; sourceTree = "<group>"; };
 		0FB7A2FB20FB31E100692939 /* SimpleTimeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB7A2FE20FB31E100692939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB7A30020FB31E100692939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -177,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				0FB7A30020FB31E100692939 /* ViewController.swift */,
+				0F0FFC9120FE8E3500D44D00 /* TimeRegistrationListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -458,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F0FFC5C20FD450200D44D00 /* TimeRegistrationListViewModel.swift in Sources */,
+				0F0FFC9220FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */,
 				0F0FFC3220FBCEE900D44D00 /* RealmStorageService.swift in Sources */,
 				0F0FFC6420FD519300D44D00 /* EditTimeEntryViewModel.swift in Sources */,
 				0F0FFC8120FE646400D44D00 /* TimeLogCellViewModelImplementation.swift in Sources */,
@@ -486,6 +492,7 @@
 				0F0FFC2B20FB92FA00D44D00 /* TimeLog.swift in Sources */,
 				0F0FFC7E20FE643900D44D00 /* TimeLogCellViewModel.swift in Sources */,
 				0F0FFC6D20FE573500D44D00 /* TimeEntry.swift in Sources */,
+				0F0FFC9320FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */,
 				0F0FFC7A20FE5E4700D44D00 /* TimeLogFactory.swift in Sources */,
 				0F0FFC3320FBCEE900D44D00 /* RealmStorageService.swift in Sources */,
 				0F0FFC6920FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
@@ -506,6 +513,7 @@
 				0F0FFC2C20FB92FA00D44D00 /* TimeLog.swift in Sources */,
 				0F0FFC7F20FE643900D44D00 /* TimeLogCellViewModel.swift in Sources */,
 				0F0FFC6E20FE573500D44D00 /* TimeEntry.swift in Sources */,
+				0F0FFC9420FE8E3500D44D00 /* TimeRegistrationListViewController.swift in Sources */,
 				0F0FFC7B20FE5E4700D44D00 /* TimeLogFactory.swift in Sources */,
 				0F0FFC3420FBCEE900D44D00 /* RealmStorageService.swift in Sources */,
 				0F0FFC6A20FD51B500D44D00 /* EditTimeEntryViewModelImplementation.swift in Sources */,
